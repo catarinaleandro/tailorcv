@@ -1,0 +1,74 @@
+# Synthetic persona for reproducing the project. Not a real person.
+person:
+  id: p_01
+  name: Alex Rivera
+  email: alex.rivera@example.com
+  location: Madrid, Spain
+  linkedin: linkedin.com/in/example-alex
+summary:
+  - id: sum_01
+    text: Business analytics graduate student with product analytics internship experience and a data-driven approach to prioritization.
+    source: original_cv
+experience:
+  - id: exp_01
+    role: Product Analyst Intern
+    org: Northwind Apps
+    dates: 2024-06 to 2024-09
+    bullets:
+      - id: exp_01_b1
+        text: Built a churn dashboard in Tableau used by 3 product teams
+        source: original_cv
+      - id: exp_01_b2
+        text: Analyzed onboarding funnel data in SQL and found a drop-off at the account setup step
+        source: original_cv
+      - id: exp_01_b3
+        text: Presented findings to the product manager, which led to a redesign of the setup screen
+        source: original_cv
+  - id: exp_02
+    role: Operations Assistant
+    org: Campus Cafe
+    dates: 2022-09 to 2023-06
+    bullets:
+      - id: exp_02_b1
+        text: Reduced average order wait time by organizing a new prep schedule
+        source: original_cv
+projects:
+  - id: proj_01
+    name: Student Housing Price Model
+    dates: 2024-02 to 2024-04
+    bullets:
+      - id: proj_01_b1
+        text: Built a regression model in Python to predict rental prices for 1,200 listings
+        source: original_cv
+      - id: proj_01_b2
+        text: Worked in a team of 4 and coordinated weekly check-ins
+        source: original_cv
+education:
+  - id: edu_01
+    degree: MSc Business Analytics and Artificial Intelligence
+    org: IE University
+    dates: 2025-09 to 2026-07
+  - id: edu_02
+    degree: BSc Economics
+    org: Universidad Complutense de Madrid
+    dates: 2021-09 to 2025-06
+skills:
+  - id: sk_01
+    name: SQL
+    source: original_cv
+  - id: sk_02
+    name: Python
+    source: original_cv
+  - id: sk_03
+    name: Tableau
+    source: original_cv
+  - id: sk_04
+    name: Excel
+    source: original_cv
+languages:
+  - id: lang_01
+    name: Spanish
+    level: native
+  - id: lang_02
+    name: English
+    level: fluent
