@@ -42,5 +42,9 @@ Run Sat 14 Nov 2026 from about 17:08 ET. One fresh subagent per step per posting
 | Posting | Questions asked | Produced a usable new entry | Confirmed gaps | Coverage before answers | Coverage after |
 |---|---|---|---|---|---|
 | 01 | 5 | 4 | 1 (plus 1 partial) | 39% | 56% |
+| 02 | 5 | 3 | 2 | 28% | 31% |
 
 Verdict 01 (pipeline): Skip, because a hard requirement (5+ years program or project management) is a confirmed gap. Matches the pre-registered verdict.
+
+Verdict 02 (pipeline): Skip on coverage (31% of 18 must-haves, under the 50% threshold). Pre-registered verdict was Apply: a disagreement, reported as is. Evidence-matcher re-run for 02: 94806 tokens, 26.4 s.
+
