@@ -47,3 +47,23 @@ Six fresh subagents, one per posting, each scored four shuffled, name-stripped C
 | mean | 44.3 | 48.3 | 56.4 | 56.4 |
 
 Reading: C is at or above A and B on every posting (ties on 02 and 04); mean 56.4 vs 48.3 (B) and 44.3 (A). C and D tie everywhere, so the auditor did not cost coverage. Caveats: the rater is a model of the same family as the builder, one rater per posting, and CVs are judged from text only, so C and D benefit from the gap answers the author gave while A and B could not use them (that is part of what the pipeline does, but it is not a like-for-like writing comparison). Six postings; counts, no significance tests.
+
+## Human preference ratings (postings 01-06; 2 raters, blind; scripts/score_ratings.py)
+Raters scored each CV 1-5 for fit and shortlisting, and ranked the four CVs per posting. Condition key opened only after both sheets were received.
+
+| Condition | Mean score R1 | Mean score R2 | Pooled mean score | Pooled mean rank (1 best) | Times ranked best (of 12) |
+|---|---|---|---|---|---|
+| A original | 1.50 | 1.83 | 1.67 | 4.00 | 0 |
+| B naive | 2.50 | 2.33 | 2.42 | 1.92 | 6 |
+| C pipeline | 2.67 | 2.33 | 2.50 | 1.67 | 5 |
+| D no auditor | 2.50 | 2.17 | 2.33 | 2.42 | 1 |
+
+Rater agreement on score: exact 17 of 24 pairs, within one point 24 of 24.
+
+Reading (honest):
+- Both raters put the original CV (A) last on all 12 rankings. Its summary names Company A, and both raters said so for every posting; that line is the author's own company-specific text, which the pipeline is designed to keep out.
+- C and B are not distinguishable: pooled mean score 2.50 vs 2.42, best-ranked 5 vs 6 times. The ratings give no evidence that raters prefer the full pipeline over a naive one-shot prompt.
+- C and D were identical CVs on postings 01, 03 and 06, and raters said so; ranks between them there are tie-breaks, so C-vs-D rank differences are not evidence.
+- Most postings were rated "would not shortlist" for fit reasons (missing experience), so scores sit low (1-4) for every condition.
+- Lines raters flagged as possibly overstated: 04 D (tenure "3+ years of experience in AI and analytics", also flagged by the auditor in the D draft), 06 B (agent "makes buying decisions", both raters), 05 B (Python claim, one rater), 02 D (Python and SQL attribution, one rater). No line in any C CV was flagged by either rater.
+- Limits: two raters, six postings, rating text not images, and B plus A are plain text while C and D follow the template (raters could guess condition from style).
