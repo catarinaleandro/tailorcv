@@ -1,0 +1,53 @@
+Title: Business Intelligence Engineer II, SCOT-FO
+Company: Amazon
+Source: https://amazon.jobs/en-gb/jobs/10605393/business-intelligence-engineer-ii-scot-fo
+Retrieved: 2026-11-14
+
+
+
+Description
+
+The Amazon Supply Chain Optimization Technologies (SCOT) team works on some of the world's most complex supply chain challenges, at Amazon scale. We understand inventory availability for the millions of items on Amazon, compute accurate delivery expectations for customer orders, and monitor fulfillment network changes to inform delivery updates and optimizations. When customers place orders, our systems utilize real-time, large-scale optimization techniques to optimally select shipping sources and consolidate multiple orders. This enables us to ensure customers receive their shipments within the promised timeframe, in an efficient manner.
+
+Fulfillment Optimization (FO) owns products and services that plan and execute First Party (1P) and 3P fulfillment resources for the outbound fulfillment network WW. This includes designing network topology, coordinating resource planning for inventory, labor, planes and trucks, and utilizing these resources optimally by being aware of the network’s true capacity, constraints, and capabilities. We provide fast, accurate and optimized delivery promises, identify the optimal fulfillment plans, and will orchestrate XXB shipments in 2025 to efficiently leverage outbound fulfillment capabilities.
+The team is composed of scientists, Business Intelligence Engineers (BIE), Software Engineers, and Researchers who lead the industry in the development of innovative algorithms and strategies to maximize the long term effectiveness of Amazon’s business.
+
+The team is seeking an exemplary Business Intelligence Engineer (BIE) with broad technical skills to build analytic and reporting capabilities that enable optimization of delivery promises for our millions of customers worldwide. The ideal candidate is a highly analytical, critical thinker with advanced problem solving, data mining, and software development skills. They will enjoy working with world-class product managers, economists, research scientists, data engineers, and software developers to drive decisions across Amazon's retail and operations teams. Successful members of this team are customer obsessed, flexible, and collaborative team players who enjoying working across functions and organizations to solve problems and get results. They ask hard questions and build scalable solutions that provide critical business insight necessary to influence decision making across retail and operations teams. They find timely answers buried in large data sets and complex systems, identify root causes, get their hands dirty building data systems and sharing insight.
+
+To help describe some of our challenges, we created a short video about Supply Chain Optimization at Amazon - http://bit.ly/amazon-scot
+
+Key job responsibilities
+- Collaborate with software development teams to implement analytics systems and data structures to support large-scale data analysis and delivery of machine learning and econometric models
+- Define, develop and maintain critical business and operational reports reviewed on a weekly, monthly, quarterly, and annual basis
+- Analyze historical data to identify trends and support decision making, including written and verbal presentation of results and recommendations
+- Mine and manipulate data from database tables, simulation results, and log files
+- Identify data needs and drive data quality improvement projects
+- Understand the broad range of Amazon's data resources, which to use, how, and when
+- Provide thought leadership on data mining and analysis
+
+A day in the life
+- Collaborate with the Engineering and Science teams to define new product features, construct data pipelines, and test new functionalities
+
+- Learn about new Amazon technologies and create proposals to adapt to those technologies
+- Conduct deep dives into anomalies and generate insights for leadership and product management
+- Use customers inputs to define new data requirements
+- Explain plan-over-plan differences or discrepancies between expected and actual performance
+- Maintain dashboards and reporting, and address any data quality issues that arise
+
+About the team
+As the Fulfillment Network Planning team, we leverage big data to identify key patterns, understand root causes, and build models to fix the most impactful problems. This role is challenging yet rewarding, requiring innovative thinking, a desire to learn, and the skills to develop advanced solutions that continuously improve the customer delivery experience.
+
+Basic Qualifications
+
+- Bachelor's degree in BI, finance, engineering, statistics, computer science, mathematics, finance or equivalent quantitative field
+- 3+ years of analyzing and interpreting data with Redshift, Oracle, NoSQL etc. experience
+- Experience with data visualization using Tableau, Quicksight, or similar tools
+- Experience with data modeling, warehousing and building ETL pipelines
+- Experience using SQL to pull data from a database or data warehouse and scripting experience (Python) to process data for modeling
+- Experience developing and presenting recommendations of new metrics allowing better understanding of the performance of the business
+
+Preferred Qualifications
+
+- Master's degree in BI, finance, engineering, statistics, computer science, mathematics, finance or equivalent quantitative field
+- Experience with AWS solutions such as EC2, DynamoDB, S3, and Redshift
+- Experience in analyzing and evaluating machine learning algorithms and optimization models

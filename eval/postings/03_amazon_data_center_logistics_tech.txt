@@ -1,0 +1,65 @@
+Title: Data Center Logistics Tech
+Company: Amazon
+Source: https://amazon.jobs/en-gb/jobs/10604965/data-center-logistics-tech
+Retrieved: 2026-11-14
+
+
+
+Description
+
+Join our dynamic team and become a critical enabler of the world's most advanced cloud computing infrastructure. In this role, you'll play a pivotal part in maintaining the heartbeat of our data center operations by ensuring seamless logistics and inventory management that directly support our technology deployment and maintenance efforts.
+
+The Logistics Specialist plays a critical role in inventory management, ensuring optimal stock levels are maintained to support data center build and repair operations. This position serves as the primary point of contact for parts management, including receiving, inventory control, and distribution to Data Center Technicians and Engineers.
+
+This position involves frequent lifting of materials and products. Logistics Specialists will be required to keep precise records of all commodities going in and out of the company. They must also maintain the cleanliness, organization, and safety of all workspaces. They must be available to work on weekend shifts.
+
+AWS Infrastructure Services owns the design, planning, delivery, and operation of all AWS global infrastructure. In other words, we’re the people who keep the cloud running. We support all AWS data centers and all the servers, storage, networking, power, and cooling equipment that ensure our customers have continual access to the innovation they rely on. We work on the most challenging problems, with thousands of variables impacting the supply chain — and we’re looking for talented people who want to help.
+
+You’ll join a diverse team of software, hardware, and network engineers, supply chain specialists, security experts, operations managers, and other vital roles. You’ll collaborate with people across AWS to help us deliver the highest standards for safety and security while providing seemingly infinite capacity at the lowest possible cost for our customers. And you’ll experience an inclusive culture that welcomes bold ideas and empowers you to own them to completion.
+
+NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role.
+
+NOTE: Lump sum stipend will be provided to eligible candidates who relocate for this position.
+
+Key job responsibilities
+Ensure that all billing associated with the Inventory supply chain is accurate, validated and ready for processing
+
+Assembling, addressing, stamping and arranging for the shipment of merchandise and materials
+
+Assist in daily scheduling of deliveries and pick-ups to and from production locations
+
+Keep precise records of all commodities going in and out of company
+
+Understand all aspects of production, adhere to strict safety standards, maintain very high quality, and be willing and able to work on powered equipment (i.e. forklift or cherry picker).
+
+Receive assets in rack, stow rack into final position, and coordinate with vendors to transport racks into final position.
+
+Be able to identify safety concerns during rack deliveries and perform safety briefings.
+
+Physical Requirements:
+
+Requires standing, sitting, and walking for prolonged periods of time.
+
+Typically, work is in a warehouse or data center environment where the noise level is moderate to loud.
+
+Occasionally assist in loading and unloading shipments.
+
+Occasionally exposed to extreme cold or hot weather
+
+Work Environment:
+
+Work with and/or around moving mechanical parts
+
+Noise level varies and can be loud
+
+Temperatures are between 60 and 90 degrees, and will occasionally exceed 90 degrees
+
+Basic Qualifications
+
+- Experience as a logistics professional supporting inventory cycle counts, shipments, maintenance, stock control functions and reverse logistics
+- Speak, write, and read fluently in English
+
+Preferred Qualifications
+
+- 1+ years of logistics operations experience
+- Can lift loads of up to 49 pounds and carry them for short distances
