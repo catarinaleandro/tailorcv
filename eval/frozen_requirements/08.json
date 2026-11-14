@@ -1,0 +1,20 @@
+{
+  "title": "Strategy & Operations Intern 2027 (USA)",
+  "company": "Pinterest",
+  "seniority": "Intern",
+  "requirements": [
+    {"id": "r1", "text": "Bachelor's degree in Business, Economics, Finance, Statistics, Business Analytics, Data Analytics, a related field, or equivalent experience", "type": "must_have", "hard": false, "keywords": ["Bachelor's degree", "Business", "Economics", "Finance", "Statistics", "Business Analytics", "Data Analytics", "equivalent experience"]},
+    {"id": "r2", "text": "Experience analyzing data to identify trends and answer defined business questions", "type": "must_have", "hard": false, "keywords": ["analyzing data", "identify trends", "business questions"]},
+    {"id": "r3", "text": "Experience communicating clear takeaways from data analysis", "type": "must_have", "hard": false, "keywords": ["communicate clear takeaways"]},
+    {"id": "r4", "text": "Experience using spreadsheets, reports, dashboards, or similar tools to organize, analyze, and present information", "type": "must_have", "hard": false, "keywords": ["spreadsheets", "reports", "dashboards"]},
+    {"id": "r5", "text": "Ability to bring structure to ambiguous questions, identify relevant inputs, and develop practical next steps with manager guidance", "type": "must_have", "hard": false, "keywords": ["bring structure to ambiguous questions", "relevant inputs", "practical next steps"]},
+    {"id": "r6", "text": "Strong organizational skills and attention to detail when tracking milestones, documenting decisions, and maintaining project materials", "type": "must_have", "hard": false, "keywords": ["organizational skills", "attention to detail", "tracking milestones", "documenting decisions"]},
+    {"id": "r7", "text": "Clear written and verbal communication skills, with the ability to share concise updates", "type": "must_have", "hard": false, "keywords": ["written and verbal communication", "concise updates"]},
+    {"id": "r8", "text": "Ability to collaborate effectively with relevant stakeholders", "type": "must_have", "hard": false, "keywords": ["collaborate", "stakeholders"]},
+    {"id": "r9", "text": "Ability to use AI to improve the speed and quality of relevant research, analysis, or workflow outputs while validating accuracy and quality", "type": "must_have", "hard": false, "keywords": ["AI", "research", "analysis", "workflow", "validating accuracy and quality"]},
+    {"id": "r10", "text": "High integrity and ownership when using AI and internal tools, including protecting sensitive data, following responsible-use guidance, and remaining accountable for final deliverables", "type": "must_have", "hard": false, "keywords": ["integrity", "ownership", "AI", "internal tools", "protecting sensitive data", "responsible-use guidance", "accountable"]},
+    {"id": "r11", "text": "US based applicants only", "type": "must_have", "hard": true, "keywords": ["US based applicants only"]},
+    {"id": "r12", "text": "Hybrid model: commutable distance to one of the offices, with in-person collaboration approximately 1-3 times per week", "type": "must_have", "hard": false, "keywords": ["hybrid", "commutable distance", "in-person collaboration"]}
+  ],
+  "keywords": ["business planning", "performance analysis", "operational projects", "metrics", "trends", "dashboard", "recurring report", "metric definitions", "milestone tracker", "dependencies", "goal-setting", "status updates", "workflow improvement", "spreadsheets", "reports", "AI", "internal tools", "validate outputs", "responsible-use", "Business Analytics", "Data Analytics", "Statistics", "Economics", "Finance", "stakeholders", "Global Content Organization"]
+}
