@@ -11,7 +11,7 @@ Core rule: **nothing goes in the CV that is not traceable to a profile entry ID.
 ## Inputs
 - `profile.yaml` (every entry has an `id`). Default path: `private/profile.yaml`; for demos use `sample/profile.yaml`.
 - The job posting: pasted text, a saved .txt, or a URL (use the `fetch_posting` MCP tool if available; otherwise ask the user to paste the text).
-- The user's Word template (.docx). If missing, ask for it. Do not invent a layout.
+- The Word template: always `sample/IENYC_CV_Template.docx`, specified in `docs/CV_FORMAT.md`. Never invent a layout.
 
 ## Workflow (run in order, do not skip steps)
 
@@ -19,13 +19,14 @@ Core rule: **nothing goes in the CV that is not traceable to a profile entry ID.
 2. **Match evidence.** Delegate to the `evidence-matcher` subagent with the requirements and profile.yaml. Output per requirement: SUPPORTED, PARTIAL or GAP, with profile entry IDs.
 3. **Ask gap questions.** Read `references/gap-questions.md`, then ask at most 5 questions, ranked by importance. Allow "I don't have this" as a valid answer. Append every real answer to profile.yaml as a new entry with `source: user-confirmed`. Re-run step 2 on affected requirements.
 4. **Give the verdict.** Read `references/fit-rubric.md`. State Apply, Stretch or Skip with reasons and the list of confirmed gaps. If Skip, say so plainly and ask whether the user still wants a CV.
-5. **Build the CV.** Read `references/ats-rules.md`. Use the docx skill to fill the user's template. Select and reorder profile entries by relevance. Reword only within what the entry supports. Write a sidecar `<output>.sources.json` mapping each CV bullet to its source entry IDs.
+5. **Build the CV.** Write the Professional Summary with `skills/professional-summary/SKILL.md`. Read `references/ats-rules.md` and `docs/CV_FORMAT.md`. Use the docx skill to fill a copy of `sample/IENYC_CV_Template.docx`, removing its review comments and sample text. Select and reorder profile entries by relevance. Reword only within what the entry supports. Write a sidecar `<output>.sources.json` mapping each CV bullet to its source entry IDs.
 6. **Audit.** Delegate to the `fabrication-auditor` subagent. Give it ONLY the final CV text and profile.yaml, never the reasoning, requirements or earlier drafts. Rewrite every OVERSTATED or UNSUPPORTED bullet (or delete it), then audit again. Stop when there are zero flags or after 3 rounds; report any remaining flags to the user.
 7. **Report.** Show: verdict, coverage summary (must-haves supported / total), questions asked, audit result, and the output path.
 
 ## Hard rules
 - Never add a skill, tool, metric, title, date or employer that is not in profile.yaml.
 - Never inflate numbers or scope ("led" for "contributed to", "team of 10" for "team").
+- Never put a company name in the CV that is not an employer or school in the profile or the posting's company. Text in `employer_scoped` is used only for its own company.
 - Never claim the CV will pass ATS screening. Say it follows ATS-safe formatting and aligns keywords with the posting.
 - If the user says they lack a requirement, it stays a gap and is left out of the CV.
 
@@ -43,4 +44,5 @@ Core rule: **nothing goes in the CV that is not traceable to a profile entry ID.
 
 ## Files
 - `agents/` : job-analyst, evidence-matcher, fabrication-auditor (copy to `.claude/agents/` in Claude Code)
+- `skills/professional-summary/` : writes the 2-3 line summary
 - `references/` : fit-rubric, ats-rules, gap-questions, no-fabrication-policy (read only when the step needs them)
