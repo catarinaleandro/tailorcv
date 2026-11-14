@@ -46,6 +46,8 @@ Run Sat 14 Nov 2026 from about 17:08 ET. One fresh subagent per step per posting
 | 03 | 4 | 3 (two without detail) | 1 (plus 1 known from the pre-registration message) | 17% | 28% |
 | 04 | 5 | 4 | 2 | 65% | 85% |
 | 05 | 3 | 3 (two with little detail) | 0 | 50% | 64% |
+| 06 | 4 | 0 | 4 | 19% | 25% |
+| Total | 26 | 17 | 10 (plus 2 from earlier messages) | | |
 
 Verdict 01 (pipeline): Skip, because a hard requirement (5+ years program or project management) is a confirmed gap. Matches the pre-registered verdict.
 
@@ -56,4 +58,16 @@ Verdict 03 (pipeline): Skip (28% of 9 must-haves, no hard-requirement flag). Mat
 Verdict 04 (pipeline): Apply (85% of 13 must-haves, no confirmed hard-requirement gap; the degree-field requirement is only PARTIAL). Matches the pre-registered verdict. Evidence-matcher runs for 04 after answers: first run 95184 tokens, 22.0 s (discarded, see bug log); valid re-run 95437 tokens, 23.3 s.
 
 Verdict 05 (pipeline): Stretch (64% of 7 must-haves, no confirmed hard-requirement gap; the UK right-to-work condition is only PARTIAL). Matches the pre-registered verdict. Evidence-matcher re-run for 05: 92818 tokens, 14.8 s.
+Verdict 06 (pipeline): Skip (25% of 8 must-haves, under the 50% threshold). Pre-registered verdict was Stretch: a disagreement, reported as is. Evidence-matcher re-run for 06: 92747 tokens, 9.6 s.
+
+### Verdict agreement so far (pipeline vs pre-registered, postings 01-06)
+| Posting | Pre-registered | Pipeline | Coverage | Agree |
+|---|---|---|---|---|
+| 01 | Skip | Skip | 56% | yes |
+| 02 | Apply | Skip | 31% | no |
+| 03 | Skip | Skip | 28% | yes |
+| 04 | Apply | Apply | 85% | yes |
+| 05 | Stretch | Stretch | 64% | yes |
+| 06 | Stretch | Skip | 25% | no |
+Agreement: 4 of 6. Both disagreements are cases where the pipeline was stricter than the author. Coverage and verdict were computed from the matcher output with the fixed rubric; nothing was changed after seeing these results.
 
