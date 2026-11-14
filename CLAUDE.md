@@ -3,7 +3,7 @@
 Read this file, then START_HERE.md and docs/PROJECT_PLAN.md, at the start of every session. START_HERE.md holds the schedule; the plan's schedule assumed a Thursday start.
 
 ## Project
-IE MSc Business Analytics and AI applied project, due Sunday 15 Nov 2026 (confirm the exact time; the slide said 23:59 ET). Goal: win the class competition. Rubric: business relevance and clarity, depth of Claude usage (skills, agents, MCP, API), rigor (validation, verification, honest limits), quality of documentation and demo.
+IE MSc Business Analytics and AI applied project, due Sunday 15 Nov 2026 at 23:59 ET (author confirmed 14 Nov 2026, 18:36 ET; target submit Sunday 17:00). Goal: win the class competition. Rubric: business relevance and clarity, depth of Claude usage (skills, agents, MCP, API), rigor (validation, verification, honest limits), quality of documentation and demo.
 
 ## Honesty rules
 - Never claim the tool beats ATS screeners or gets interviews. Claim only improved requirement and keyword alignment, traceability, and zero unsupported claims after audit.
