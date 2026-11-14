@@ -12,7 +12,7 @@ Add each limitation as you notice it. Starting list:
 ## Added 14 Nov 2026 (from the runs)
 - One author, one profile, six evaluation postings plus two held-out. Counts and rates only; no significance claims.
 - Held-out postings were not blind: the author read them before answering gap questions, and the assistant skimmed one during extraction. They were run once with no prompt change.
-- The auditor is one model checking another model's output. It missed two embellishments in draft CVs that its second and third rounds then caught after rewrite. Zero flags is not proof of zero fabrication. Human line-by-line checks cover 4 of 8 final CVs (C_02, C_04, C_05, H_08), each as one blanket "all true" from the author.
+- The auditor is one model checking another model's output. On one held-out CV it missed an embellishment ("progress reviewed" vs the profile's "tracked") in round 1 that round 2 caught. Zero flags is not proof of zero fabrication. Human line-by-line checks cover 4 of 8 final CVs (C_02, C_04, C_05, H_08), each as one blanket "all true" from the author.
 - Rewrites after audit flags and page-length trims were made by the orchestrator (the assistant), not the builder, so C is a pipeline plus orchestrator edits.
 - Matcher variance: one requirement flipped status between two runs on posting 02; the job analyst once split a degree alternative into a separate hard must-have (posting 02). Not fixed; verdict unaffected.
 - Coverage is judged by model raters of the same family as the builder, one rater per posting. C and D benefit from gap answers that A and B could not use.
