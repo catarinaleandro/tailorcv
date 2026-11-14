@@ -45,6 +45,7 @@ Run Sat 14 Nov 2026 from about 17:08 ET. One fresh subagent per step per posting
 | 02 | 5 | 3 | 2 | 28% | 31% |
 | 03 | 4 | 3 (two without detail) | 1 (plus 1 known from the pre-registration message) | 17% | 28% |
 | 04 | 5 | 4 | 2 | 65% | 85% |
+| 05 | 3 | 3 (two with little detail) | 0 | 50% | 64% |
 
 Verdict 01 (pipeline): Skip, because a hard requirement (5+ years program or project management) is a confirmed gap. Matches the pre-registered verdict.
 
@@ -53,4 +54,6 @@ Verdict 02 (pipeline): Skip on coverage (31% of 18 must-haves, under the 50% thr
 Verdict 03 (pipeline): Skip (28% of 9 must-haves, no hard-requirement flag). Matches the pre-registered verdict. Evidence-matcher re-run for 03: 91380 tokens, 10.2 s.
 
 Verdict 04 (pipeline): Apply (85% of 13 must-haves, no confirmed hard-requirement gap; the degree-field requirement is only PARTIAL). Matches the pre-registered verdict. Evidence-matcher runs for 04 after answers: first run 95184 tokens, 22.0 s (discarded, see bug log); valid re-run 95437 tokens, 23.3 s.
+
+Verdict 05 (pipeline): Stretch (64% of 7 must-haves, no confirmed hard-requirement gap; the UK right-to-work condition is only PARTIAL). Matches the pre-registered verdict. Evidence-matcher re-run for 05: 92818 tokens, 14.8 s.
 
