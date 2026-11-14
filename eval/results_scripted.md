@@ -1,0 +1,27 @@
+# Scripted results (postings 01-06): template check and keyword match
+
+Generated 14 Nov 2026 by scripts/template_check.py and scripts/keyword_match.py. Numbers only.
+Bug fixed before these runs: template_check treated any `<w:cols>` element as multi-column; it now fails only if num > 1 (logged below).
+
+## Template check
+C_01-06 and D_01-06: 12/12 each. The template itself scores 9/12 (sample text, review comments, old date format, as expected).
+
+## Keyword match (% of the frozen list's keywords found in the CV text; total in brackets)
+| Posting | A original | B naive | C pipeline | D no auditor |
+|---|---|---|---|---|
+| 01 [39] | 7.7 | 12.8 | 12.8 | 12.8 |
+| 02 [72] | 9.7 | 9.7 | 13.9 | 13.9 |
+| 03 [45] | 2.2 | 6.7 | 4.4 | 4.4 |
+| 04 [72] | 6.9 | 6.9 | 11.1 | 15.3 |
+| 05 [28] | 3.6 | 14.3 | 7.1 | 14.3 |
+| 06 [40] | 7.5 | 7.5 | 5.0 | 5.0 |
+
+## Reading (honest)
+- C beats A on 5 of 6 postings and beats B on 2 (02, 04); C ties B on 01 and is below B on 03, 05, 06.
+- D is at or above C on 04 and 05. The auditor removes unsupported wording, so lower keyword match for C than D is expected, not a defect.
+- Absolute values are low because the lists include many keywords the profile cannot honestly support. The match is capped by evidence, not by writing.
+- Keyword match is a proxy for alignment only. Nothing here says anything about real ATS screening or interviews.
+- Not yet done: must-have coverage by blind rater, human ratings, held-out runs 07 and 08.
+
+## Bug log
+- template_check one_column_no_tables false positive (`<w:cols w:space="708"/>` has no num, which means one column). Script fixed; no prompt change.
