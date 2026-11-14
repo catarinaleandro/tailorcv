@@ -71,3 +71,31 @@ Verdict 06 (pipeline): Skip (25% of 8 must-haves, under the 50% threshold). Pre-
 | 06 | Stretch | Skip | 25% | no |
 Agreement: 4 of 6. Both disagreements are cases where the pipeline was stricter than the author. Coverage and verdict were computed from the matcher output with the fixed rubric; nothing was changed after seeing these results.
 
+## Condition D and C: CV build and audit
+Run Sat 14 Nov 2026 from about 17:45 ET. One builder subagent per posting (agents/cv-builder.md; output spec rendered into sample/IENYC_CV_Template.docx by scripts/build_cv.py; all six CVs are 1 page). Condition D is the builder's first draft with no audit. Condition C is the same CV after the auditor loop (rewrite flagged lines, audit again, stop at zero flags or 3 rounds). Posting country was not stated in 01, 03 and 06, so US spelling was used; 05 (London) used British spelling. Company-leak check (scripts/leak_check.py): no leaks in any D or C CV.
+
+| Step | Posting | Subagent tokens | Duration (s) |
+|---|---|---|---|
+| cv-builder (D) | 01 | 103503 | 34.5 |
+| cv-builder (D) | 02 | 103387 | 36.8 |
+| cv-builder (D) | 03 | 100371 | 20.3 |
+| cv-builder (D) | 04 | 104250 | 33.7 |
+| cv-builder (D) | 05 | 101264 | 26.2 |
+| cv-builder (D) | 06 | 102620 | 33.8 |
+| audit round 1 | 01 to 06 | 97224, 97283, 96163, 97277, 97504, 96582 | 23.1, 24.9, 21.5, 22.5, 22.5, 18.2 |
+| audit round 2 | 02, 04, 05 | 97402, 97346, 97022 | 25.6, 23.7, 19.5 |
+| audit round 3 | 02 | 96479 | 18.3 |
+
+Rewrites between audit rounds were made by the orchestrator (the assistant), not by the builder subagent: summary phrases removed or softened, one tense fixed, citations corrected.
+
+### Auditor results (lines audited = bullets, summary sentences and skills lines)
+| Posting | D flagged (round 1) | Lines | Rounds to zero flags (C) |
+|---|---|---|---|
+| 01 | 0 | 15 | 1 |
+| 02 | 2 overstated | 15 | 3 |
+| 03 | 0 | 17 | 1 |
+| 04 | 1 overstated, 1 unsupported | 17 | 2 |
+| 05 | 1 overstated | 17 | 2 |
+| 06 | 0 | 17 | 1 |
+D: 5 flagged lines of 98 (5.1%). C: 0 flagged lines after the loop. The auditor's zero-flag result is not proof of zero fabrication: manual line-by-line checks of 3 CVs are still to be done and recorded.
+
