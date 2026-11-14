@@ -25,3 +25,10 @@ C_01-06 and D_01-06: 12/12 each. The template itself scores 9/12 (sample text, r
 
 ## Bug log
 - template_check one_column_no_tables false positive (`<w:cols w:space="708"/>` has no num, which means one column). Script fixed; no prompt change.
+
+## Held-out (postings 07 and 08, run once; conditions A and C only)
+| Posting | Verdict | Must-have coverage | Audit flags after loop | Template check | Keyword A | Keyword C |
+|---|---|---|---|---|---|---|
+| 07 Boston Scientific | Skip | 56.0% (hard degree gap) | 0 (2 fixed) | 12/12 | 9.6% | 9.6% |
+| 08 Pinterest | Stretch | 75.0% | 0 | 12/12 | 8.8% | 17.5% |
+Coverage is from the pipeline's own matcher, not an independent rater. These are the author's gap answers plus a profile the author had already seen; the held-out postings were not blind to the author. Two postings prove nothing; report as counts.

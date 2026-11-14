@@ -102,3 +102,14 @@ D: 5 flagged lines of 98 (5.1%). C: 0 flagged lines after the loop. The auditor'
 
 ## Held-out postings 07 (Boston Scientific) and 08 (Pinterest), run once
 Sat 14 Nov 2026 from about 18:00 ET. Requirement lists frozen in commit 8073361 before matching (analyst: 26 and 12 requirements). Matcher before gap answers: 07 = 7 SUPPORTED / 11 PARTIAL / 8 GAP; 08 = 5 / 7 / 0. Provenance: the author read both postings before giving gap answers, and the assistant skimmed the 07 head and tail during extraction, so these are held-out from the prompts, not blind to the people. Author's first gap answer for 08 was "I believe I have everything", which names no evidence and cannot be recorded; specific questions were asked instead.
+
+### Held-out 07 and 08: gap answers, verdicts, build, audit (Sat 14 Nov 2026, about 18:00-18:25 ET)
+- Gap answers were short; 8 were saved as user_confirmed entries (no embellishment). 07: work-eligibility question answered yes, PowerPoint at Company C yes, Power BI dashboard in coursework yes, no relevant work experience, no automated report or KPI, no engineering or science degree. 08: Company C financial modelling, flood data to risk index in Group Project S, tracked every 50 sales, "made sure it wasn't leaked", commutable to the NYC office.
+- Matcher after answers: 07 = 9 SUPPORTED / 10 PARTIAL / 7 GAP of 26 (must-have coverage 56.0%); 08 = 6 / 6 / 0 of 12 (75.0%).
+- Verdicts by the fixed rubric: 07 Skip (hard requirement r13, degree in engineering or science, is a confirmed gap); 08 Stretch (75%, no hard gap). Not pre-registered (held-out), reported as pipeline output only.
+- Builder (one run each, no prompt change): first drafts were 2 pages. The orchestrator trimmed lowest-priority content to reach 1 page (07: dropped the club entry and one Side Business bullet; 08: dropped Project R, Company B, one Company C bullet and the club entry). Builder drafts are kept as H_0X_spec_untrimmed.json (private).
+- Audit: 07 round 1 had 1 OVERSTATED (summary said "Python risk index"), round 2 had 1 OVERSTATED ("progress reviewed" vs profile "tracked"), round 3 = 0 flags; both fixed by orchestrator edits. 08 round 1 = 0 flags (14 of 14 supported). Auditor zero is not proof of zero fabrication; no manual line-by-line check of these two CVs yet.
+- Template check 12/12 on both; company-leak check: no leaks.
+- Subagent tokens: analyst 90875 / 89113; matcher before answers 97812 / 95356; builders 111940 / 110041; auditors 98791, 98166, 98057 (07) and 96582 (08). Durations 15-68 s per step.
+
+Keyword match on held-out (conditions A and C only; B and D were not run for held-out postings): 07 A 9.6% C 9.6% (52 keywords); 08 A 8.8% C 17.5% (57 keywords).

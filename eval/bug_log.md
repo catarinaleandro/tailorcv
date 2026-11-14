@@ -12,3 +12,7 @@ Log every failure and every prompt change. This feeds the error analysis and the
 
 
 - 14 Nov 2026: scripts/template_check.py reported a false failure on every CV (the cols element exists in the template too). Fixed the check to fail only on num > 1. Scoring script change only; no prompt change, no CV changed.
+
+- 14 Nov 2026 (held-out): builder over-applied the company-name rule. It dropped "with a climate-finance initiative" from the Company B bullet and left out the Fitness App because it names a wearable brand; neither is a company the leak check forbids. No prompt change (held-out run once); reported as a limitation. Both builders skipped references/ats-rules.md because the run prompt listed only some files; the spec for the agent file should list it, to be fixed only after the held-out results are reported.
+- 14 Nov 2026: calling build_cv.py with the template path as the output argument overwrote sample/IENYC_CV_Template.docx locally (usage error by the orchestrator). Detected in the same session, restored from git (git checkout), never committed; two runs between the overwrite and the restore were rebuilt. Committed template is unchanged.
+- 14 Nov 2026: builder drafts for 07 and 08 were 2 pages; trimmed by the orchestrator, not by a prompt change.
