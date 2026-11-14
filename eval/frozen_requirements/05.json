@@ -1,0 +1,43 @@
+{
+  "title": "2027 Quantitative Analytics Associate Graduate Programme London",
+  "company": "Barclays",
+  "seniority": "Graduate / Early Careers",
+  "requirements": [
+    {"id": "r1", "text": "Have achieved, or be on track to achieve, a Master's degree or higher qualification by June 2027", "type": "must_have", "hard": true, "keywords": ["Master's degree", "June 2027"]},
+    {"id": "r2", "text": "Strong mathematical skills", "type": "must_have", "hard": false, "keywords": ["mathematical"]},
+    {"id": "r3", "text": "Strong programming skills", "type": "must_have", "hard": false, "keywords": ["programming"]},
+    {"id": "r4", "text": "Programming skills ideally in C/C++ or Python", "type": "nice_to_have", "hard": false, "keywords": ["C/C++", "Python"]},
+    {"id": "r5", "text": "Logical thinking", "type": "must_have", "hard": false, "keywords": ["logical thinking"]},
+    {"id": "r6", "text": "Creative problem solving", "type": "must_have", "hard": false, "keywords": ["creative problem solving"]},
+    {"id": "r7", "text": "Strong communication skills", "type": "must_have", "hard": false, "keywords": ["communication skills"]},
+    {"id": "r8", "text": "Applicants not eligible for a skilled worker visa must have their own legal right to work in the UK full-time from August 2027 to August 2028", "type": "must_have", "hard": true, "keywords": ["right to work", "skilled worker visa", "visa sponsorship"]}
+  ],
+  "keywords": [
+    "Quantitative Analytics",
+    "Risk Quantitative Analytics",
+    "Risk QA",
+    "Master's degree",
+    "mathematical",
+    "programming",
+    "C/C++",
+    "Python",
+    "statistical methods",
+    "AI techniques",
+    "coding",
+    "modellers",
+    "developers",
+    "models",
+    "valuation",
+    "risk management",
+    "data analysis",
+    "quantitative analysis",
+    "mathematical modelling",
+    "pricing",
+    "financial risk",
+    "logical thinking",
+    "creative problem solving",
+    "communication skills",
+    "skilled worker visa",
+    "right to work"
+  ]
+}

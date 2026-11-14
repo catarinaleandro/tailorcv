@@ -1,0 +1,20 @@
+{
+  "title": "Global Program Manager, Kindle Content WW Selection",
+  "company": "Amazon",
+  "seniority": "Not stated; requires 5+ years of program or project management experience",
+  "requirements": [
+    {"id": "r1", "text": "5+ years of program or project management experience", "type": "must_have", "hard": true, "keywords": ["program management", "project management"]},
+    {"id": "r2", "text": "Experience using data and metrics to determine and drive improvements", "type": "must_have", "hard": false, "keywords": ["data", "metrics"]},
+    {"id": "r3", "text": "Experience owning program strategy, end to end delivery", "type": "must_have", "hard": false, "keywords": ["program strategy", "end to end delivery"]},
+    {"id": "r4", "text": "Experience communicating results to senior leadership", "type": "must_have", "hard": false, "keywords": ["senior leadership"]},
+    {"id": "r5", "text": "Experience working cross functionally with tech and non-tech teams", "type": "must_have", "hard": false, "keywords": ["cross functionally", "tech and non-tech teams"]},
+    {"id": "r6", "text": "Experience in complex problem solving", "type": "must_have", "hard": false, "keywords": ["complex problem solving"]},
+    {"id": "r7", "text": "Experience working in a tight schedule environment", "type": "must_have", "hard": false, "keywords": ["tight schedule"]},
+    {"id": "r8", "text": "Experience implementing repeatable processes and driving automation or standardization", "type": "must_have", "hard": false, "keywords": ["repeatable processes", "automation", "standardization"]},
+    {"id": "r9", "text": "Experience working in a matrixed organization", "type": "must_have", "hard": false, "keywords": ["matrixed organization"]},
+    {"id": "r10", "text": "2+ years of driving process improvements experience", "type": "nice_to_have", "hard": false, "keywords": ["process improvements"]},
+    {"id": "r11", "text": "Master's degree, or MBA in business, operations, human resources, adult education, organizational development, instructional design or related field", "type": "nice_to_have", "hard": false, "keywords": ["Master's degree", "MBA", "business", "operations", "human resources", "adult education", "organizational development", "instructional design"]},
+    {"id": "r12", "text": "Knowledge of general AI tools", "type": "nice_to_have", "hard": false, "keywords": ["AI tools"]}
+  ],
+  "keywords": ["program management", "project management", "SOP", "standard operating procedure", "change management", "vendor management", "stakeholders", "data science", "training materials", "senior leadership", "VP-level leadership", "special projects", "process improvements", "automation", "standardization", "matrixed organization", "cross functionally", "root cause", "metrics", "AI tools", "MBA", "content acquisition", "Kindle+", "product", "business results"]
+}

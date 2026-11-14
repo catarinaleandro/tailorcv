@@ -1,0 +1,30 @@
+{
+  "title": "Early Career Consult Program - Associate AI Engineer",
+  "company": "Kyndryl",
+  "seniority": "Entry-level (Early Career, 0-3 years)",
+  "requirements": [
+    {"id": "r1", "text": "Legally authorized to work in the United States without restriction now and in the future; no visa sponsorship", "type": "must_have", "hard": true, "keywords": ["legally authorized to work in the United States", "will not sponsor employment visas"]},
+    {"id": "r2", "text": "Able to work at the Frisco office 5 days per week", "type": "must_have", "hard": false, "keywords": ["Frisco office", "5 days per week"]},
+    {"id": "r3", "text": "Bachelor's degree in Computer Science, Data Science, Information Systems, Engineering, Mathematics, Statistics, or a related discipline, or equivalent practical experience", "type": "must_have", "hard": true, "keywords": ["Bachelor's degree", "Computer Science", "Data Science", "Information Systems", "Engineering", "Mathematics", "Statistics", "equivalent practical experience"]},
+    {"id": "r4", "text": "0-3 years of experience in software engineering, AI, machine learning, data engineering, analytics, or related technical fields", "type": "must_have", "hard": true, "keywords": ["0-3 years", "software engineering", "AI", "machine learning", "data engineering", "analytics"]},
+    {"id": "r5", "text": "Working knowledge of Python or a similar programming language", "type": "must_have", "hard": false, "keywords": ["Python"]},
+    {"id": "r6", "text": "Basic understanding of software development principles", "type": "must_have", "hard": false, "keywords": ["software development principles"]},
+    {"id": "r7", "text": "Basic understanding of problem-solving techniques", "type": "must_have", "hard": false, "keywords": ["problem-solving"]},
+    {"id": "r8", "text": "Familiarity with data structures, databases, APIs, cloud technologies, or modern development tools", "type": "must_have", "hard": false, "keywords": ["data structures", "databases", "APIs", "cloud technologies", "modern development tools"]},
+    {"id": "r9", "text": "Strong analytical skills", "type": "must_have", "hard": false, "keywords": ["analytical"]},
+    {"id": "r10", "text": "Strong communication skills", "type": "must_have", "hard": false, "keywords": ["communication"]},
+    {"id": "r11", "text": "Strong collaboration skills", "type": "must_have", "hard": false, "keywords": ["collaboration"]},
+    {"id": "r12", "text": "Strong documentation skills", "type": "must_have", "hard": false, "keywords": ["documentation"]},
+    {"id": "r13", "text": "Demonstrated curiosity and interest in emerging AI and data technologies", "type": "must_have", "hard": false, "keywords": ["curiosity", "emerging AI and data technologies"]},
+    {"id": "r14", "text": "Exposure to Microsoft Azure, Azure AI Services, Azure OpenAI, AWS, Google Cloud, or similar platforms", "type": "nice_to_have", "hard": false, "keywords": ["Microsoft Azure", "Azure AI Services", "Azure OpenAI", "AWS", "Google Cloud"]},
+    {"id": "r15", "text": "Familiarity with AI, machine learning, generative AI, large language models, retrieval systems, or intelligent automation", "type": "nice_to_have", "hard": false, "keywords": ["AI", "machine learning", "generative AI", "large language models", "retrieval systems", "intelligent automation"]},
+    {"id": "r16", "text": "Exposure to SQL, data analysis, data preparation, ETL/ELT, or data pipeline concepts", "type": "nice_to_have", "hard": false, "keywords": ["SQL", "data analysis", "data preparation", "ETL/ELT", "data pipeline"]},
+    {"id": "r17", "text": "Experience with Git, CI/CD, Docker, DevOps, MLOps, or software engineering practices", "type": "nice_to_have", "hard": false, "keywords": ["Git", "CI/CD", "Docker", "DevOps", "MLOps", "software engineering practices"]},
+    {"id": "r18", "text": "Knowledge of visualization, reporting, or business intelligence tools", "type": "nice_to_have", "hard": false, "keywords": ["visualization", "reporting", "business intelligence"]},
+    {"id": "r19", "text": "Relevant certifications in AI, cloud, data, or software engineering technologies", "type": "nice_to_have", "hard": false, "keywords": ["certifications"]},
+    {"id": "r20", "text": "Understanding of responsible AI, data privacy, security, and governance principles", "type": "nice_to_have", "hard": false, "keywords": ["responsible AI", "data privacy", "security", "governance"]}
+  ],
+  "keywords": [
+    "Python", "SQL", "AI", "machine learning", "generative AI", "large language models", "retrieval-augmented generation (RAG)", "intelligent agents", "prompt engineering", "APIs", "system integration", "Microsoft Azure", "Azure AI Services", "Azure OpenAI", "AWS", "Google Cloud", "Git", "CI/CD", "Docker", "DevOps", "MLOps", "ETL/ELT", "data pipelines", "data quality", "data governance", "exploratory data analysis", "data preparation", "business intelligence", "visualization", "responsible AI", "data privacy", "security", "agile", "code reviews", "technical documentation", "data structures", "databases", "cloud", "analytics", "data engineering", "software engineering", "certifications"
+  ]
+}

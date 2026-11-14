@@ -1,0 +1,19 @@
+{
+  "title": "Data Center Logistics Tech",
+  "company": "Amazon",
+  "seniority": "Not stated",
+  "requirements": [
+    {"id": "r1", "text": "Keep precise records of all commodities going in and out of the company", "type": "must_have", "hard": false, "keywords": ["precise records", "commodities", "inventory management"]},
+    {"id": "r2", "text": "Maintain the cleanliness, organization, and safety of all workspaces", "type": "must_have", "hard": false, "keywords": ["cleanliness", "organization", "safety"]},
+    {"id": "r3", "text": "Be available to work weekend shifts", "type": "must_have", "hard": false, "keywords": ["weekend shifts"]},
+    {"id": "r4", "text": "Be willing and able to work on powered equipment (i.e. forklift or cherry picker)", "type": "must_have", "hard": false, "ambiguous": true, "keywords": ["powered equipment", "forklift", "cherry picker", "strict safety standards"]},
+    {"id": "r5", "text": "Be able to identify safety concerns during rack deliveries and perform safety briefings", "type": "must_have", "hard": false, "ambiguous": true, "keywords": ["safety concerns", "rack deliveries", "safety briefings"]},
+    {"id": "r6", "text": "Standing, sitting, and walking for prolonged periods of time", "type": "must_have", "hard": false, "keywords": ["Physical Requirements", "warehouse", "data center"]},
+    {"id": "r7", "text": "Occasionally assist in loading and unloading shipments", "type": "must_have", "hard": false, "keywords": ["loading and unloading shipments"]},
+    {"id": "r8", "text": "Experience as a logistics professional supporting inventory cycle counts, shipments, maintenance, stock control functions and reverse logistics", "type": "must_have", "hard": false, "keywords": ["logistics", "inventory cycle counts", "shipments", "maintenance", "stock control", "reverse logistics"]},
+    {"id": "r9", "text": "Speak, write, and read fluently in English", "type": "must_have", "hard": false, "keywords": ["English"]},
+    {"id": "r10", "text": "1+ years of logistics operations experience", "type": "nice_to_have", "hard": false, "keywords": ["logistics operations"]},
+    {"id": "r11", "text": "Can lift loads of up to 49 pounds and carry them for short distances", "type": "nice_to_have", "hard": false, "keywords": ["lift loads", "49 pounds"]}
+  ],
+  "keywords": ["Data Center Logistics Tech", "Logistics Specialist", "inventory management", "inventory control", "stock levels", "parts management", "receiving", "distribution", "Data Center Technicians", "AWS Infrastructure Services", "supply chain", "billing", "shipment", "scheduling of deliveries", "pick-ups", "rack", "vendors", "forklift", "cherry picker", "powered equipment", "safety standards", "safety briefings", "inventory cycle counts", "stock control", "reverse logistics", "logistics operations", "weekend shifts", "warehouse", "data center"]
+}
