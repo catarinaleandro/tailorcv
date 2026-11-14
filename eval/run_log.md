@@ -114,4 +114,4 @@ Sat 14 Nov 2026 from about 18:00 ET. Requirement lists frozen in commit 8073361 
 
 Keyword match on held-out (conditions A and C only; B and D were not run for held-out postings): 07 A 9.6% C 9.6% (52 keywords); 08 A 8.8% C 17.5% (57 keywords).
 
-Profile corrections after the runs (14 Nov 2026, 18:07 ET): Group Project S dated Jul. 2026 to Jul. 2026 and a group project of 4; the game-theory thesis belongs to the Bachelor. These were made after the C, D and held-out CVs were built, so those CVs are unchanged. Two CVs print "Group Project S" without dates, and none state solo work, so nothing in them is contradicted.
+Profile corrections after the runs (14 Nov 2026, 18:07 ET): Group Project S dated Jul. 2026 to Jul. 2026 and a group project of 4; the game-theory thesis belongs to the Bachelor. These were made after the C, D and held-out CVs were built, so those CVs are unchanged. Group Project S appears in C and D CVs 01, 03, 04, 05, 06 and in H_07 and H_08, most without dates; none says solo, but "Built" does not say it was a group of 4. Not changed, to keep the evaluated CVs as run; listed as a limitation.
