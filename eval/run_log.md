@@ -113,3 +113,5 @@ Sat 14 Nov 2026 from about 18:00 ET. Requirement lists frozen in commit 8073361 
 - Subagent tokens: analyst 90875 / 89113; matcher before answers 97812 / 95356; builders 111940 / 110041; auditors 98791, 98166, 98057 (07) and 96582 (08). Durations 15-68 s per step.
 
 Keyword match on held-out (conditions A and C only; B and D were not run for held-out postings): 07 A 9.6% C 9.6% (52 keywords); 08 A 8.8% C 17.5% (57 keywords).
+
+Profile corrections after the runs (14 Nov 2026, 18:07 ET): Group Project S dated Jul. 2026 to Jul. 2026 and a group project of 4; the game-theory thesis belongs to the Bachelor. These were made after the C, D and held-out CVs were built, so those CVs are unchanged. Two CVs print "Group Project S" without dates, and none state solo work, so nothing in them is contradicted.
