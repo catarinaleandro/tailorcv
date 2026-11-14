@@ -32,3 +32,18 @@ C_01-06 and D_01-06: 12/12 each. The template itself scores 9/12 (sample text, r
 | 07 Boston Scientific | Skip | 56.0% (hard degree gap) | 0 (2 fixed) | 12/12 | 9.6% | 9.6% |
 | 08 Pinterest | Stretch | 75.0% | 0 | 12/12 | 8.8% | 17.5% |
 Coverage is from the pipeline's own matcher, not an independent rater. These are the author's gap answers plus a profile the author had already seen; the held-out postings were not blind to the author. Two postings prove nothing; report as counts.
+
+## Independent must-have coverage (postings 01-06; blind subagent rater)
+Six fresh subagents, one per posting, each scored four shuffled, name-stripped CVs against the frozen requirement list without condition labels (scripts/make_rating_packets.py, scripts/score_coverage.py; key stays private). Coverage = (S + 0.5 P) / M over must-haves.
+
+| Posting | A | B | C | D |
+|---|---|---|---|---|
+| 01 | 44.4 | 50.0 | 66.7 | 66.7 |
+| 02 | 47.2 | 47.2 | 47.2 | 47.2 |
+| 03 | 16.7 | 27.8 | 38.9 | 38.9 |
+| 04 | 69.2 | 69.2 | 69.2 | 69.2 |
+| 05 | 57.1 | 64.3 | 78.6 | 78.6 |
+| 06 | 31.2 | 31.2 | 37.5 | 37.5 |
+| mean | 44.3 | 48.3 | 56.4 | 56.4 |
+
+Reading: C is at or above A and B on every posting (ties on 02 and 04); mean 56.4 vs 48.3 (B) and 44.3 (A). C and D tie everywhere, so the auditor did not cost coverage. Caveats: the rater is a model of the same family as the builder, one rater per posting, and CVs are judged from text only, so C and D benefit from the gap answers the author gave while A and B could not use them (that is part of what the pipeline does, but it is not a like-for-like writing comparison). Six postings; counts, no significance tests.
