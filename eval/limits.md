@@ -23,3 +23,4 @@ Add each limitation as you notice it. Starting list:
 - The Vercel app, MCP server and plugin packaging are specified or planned only and not built, so no claim is made about them.
 - Profile facts the author later corrected (Group Project S dates and team size) were not in the CVs as evaluated.
 - Nothing here shows the CVs pass a real ATS or lead to interviews. Not measured.
+- Human raters: two raters, six postings. The author states both rated on their own, without AI tools (author's statement, 14 Nov 2026, 18:33 ET; not independently verified). Raters could guess condition from style (A and B plain text, C and D template). Ratings show no preference for the pipeline over the naive prompt (pooled mean 2.50 vs 2.42).
