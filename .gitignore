@@ -6,3 +6,4 @@ private/*
 .env
 __pycache__/
 .ipynb_checkpoints/
+!app/api/IENYC_CV_Template.docx

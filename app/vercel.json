@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "api/cv_docx.py": { "includeFiles": "api/**", "maxDuration": 60 },
+    "app/api/step/route.js": { "maxDuration": 120 }
+  }
+}

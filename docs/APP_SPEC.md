@@ -1,6 +1,14 @@
 # TailorCV web app (Vercel): spec
 
-Status: not built. Planned only after pre-registration is committed and the core pipeline has run on the evaluation postings. The app is a front end over the same prompts, subagent roles and auditor as the skill; it must not use different logic, or the evaluation would not describe it.
+Status: MVP built in `app/` on 14 Nov 2026 (after pre-registration and the core evaluation). It is a front end over the same prompts, subagent roles, auditor, renderer and template checker as the skill: `scripts/sync_app_prompts.py` copies them into `app/`, and `--check` fails if they drift. The app was NOT part of the evaluation: none of the results in `eval/` describe it.
+
+Differences from this spec, as built:
+- The profile is saved in the user's browser only (localStorage), with export and delete buttons. There is no server storage, no accounts and no keying by email; this avoids storing personal data but means the profile does not follow the user to another browser.
+- Access is gated by an access code (`APP_ACCESS_CODE`) the owner sets in Vercel, so the owner's API credits are not open to strangers. `ANTHROPIC_API_KEY` is also set by the owner in Vercel and never appears in code or chat.
+- Gap-question answers are saved word for word as `user_confirmed` evidence entries, not as restructured bullets.
+- Page length is estimated from line counts (the renderer's PDF check needs LibreOffice, which does not run in the app); the estimate was calibrated on 14 CVs of this project.
+- Job links are fetched server-side; many sites block that, so pasting the text is the fallback.
+- Not built: multi-user storage, history of past runs.
 
 ## User flow
 1. **Profile setup (once).** Fields: name, email, LinkedIn URL, city and state, phone. Four free-text boxes with no required format: Education, Work experience, Skills, Extra (leadership, projects, achievements, languages). Claude parses each into structured entries with IDs and shows the result for the user to correct before saving. Nothing is saved until the user confirms.

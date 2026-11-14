@@ -17,7 +17,7 @@ Every final CV follows `sample/IENYC_CV_Template.docx`, as specified in `docs/CV
 Profile text that names one company lives in `employer_scoped` and may appear only in a CV for that company. Before delivering any CV, check the full text for company names outside the profile's employers and schools and the posting's company.
 
 ## Planned app
-The Vercel web app is specified in `docs/APP_SPEC.md`. Not built yet; it comes only after pre-registration is committed. It must reuse the same prompts and auditor as the skill. It may never claim to test whether a CV passes a company's screening.
+The Vercel web app is specified in `docs/APP_SPEC.md` and built as an MVP in `app/` (not part of the evaluation). It must reuse the same prompts and auditor as the skill (`python3 scripts/sync_app_prompts.py --check`). It may never claim to test whether a CV passes a company's screening. The API key and access code are set by the owner in Vercel; never put them in the repo or chat.
 
 ## Data and git
 - Real personal data stays in `private/` (git-ignored): `private/profile.yaml`, the real CV, ratings that identify people. Never commit it, never paste it into committed files, never send it to external services.
