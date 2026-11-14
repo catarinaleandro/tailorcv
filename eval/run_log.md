@@ -99,3 +99,6 @@ Rewrites between audit rounds were made by the orchestrator (the assistant), not
 | 06 | 0 | 17 | 1 |
 D: 5 flagged lines of 98 (5.1%). C: 0 flagged lines after the loop. The auditor's zero-flag result is not proof of zero fabrication: manual line-by-line checks of 3 CVs are still to be done and recorded.
 
+
+## Held-out postings 07 (Boston Scientific) and 08 (Pinterest), run once
+Sat 14 Nov 2026 from about 18:00 ET. Requirement lists frozen in commit 8073361 before matching (analyst: 26 and 12 requirements). Matcher before gap answers: 07 = 7 SUPPORTED / 11 PARTIAL / 8 GAP; 08 = 5 / 7 / 0. Provenance: the author read both postings before giving gap answers, and the assistant skimmed the 07 head and tail during extraction, so these are held-out from the prompts, not blind to the people. Author's first gap answer for 08 was "I believe I have everything", which names no evidence and cannot be recorded; specific questions were asked instead.
