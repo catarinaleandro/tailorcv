@@ -14,7 +14,7 @@ Sunday 15 November 2026 (confirm exact time with the course).
 - `eval/`: pre-registration, bug log, interview notes, limits log
 
 ## Status
-Scaffold stage. Done: orchestrator skill, 4 reference files, 3 subagents, sample persona, pre-registration template. Not yet built: MCP server, scripts, evaluation, plugin.
+Evaluation run on 14 Nov 2026 (6 postings plus 2 held-out): see `eval/results_scripted.md`, `eval/run_log.md`, `eval/limits.md`. Built: orchestrator skill, professional-summary skill, 4 subagent prompts, reference rules, scripts (template rendering, template check, keyword match, company-name check, rating scoring), CV template spec, and a web app MVP in `app/` (not part of the evaluation; see `app/README.md`). Not built: MCP server, plugin packaging, API evaluation harness. Real profile, CVs and rater files are not in this repo.
 
 ## Setup (Claude Code)
 1. Put this folder at the root of your Claude Code project.
