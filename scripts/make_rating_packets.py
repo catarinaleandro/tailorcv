@@ -2,7 +2,8 @@
 """Build blind rating packets. For each posting 01-06: the four CVs (A original, B naive, C pipeline, D no auditor)
 as plain text with name and contact line removed, under random codes. Writes private/ratings/packet/NN_X.txt
 and private/ratings/key.json (condition per code; never give the key to raters). Seed fixed for reproducibility."""
-import random, json, re, os
+import random, json, re, os, yaml
+NAME = yaml.safe_load(open('private/profile.yaml', encoding='utf8'))['person']['name']  # read from the private profile, never hard-coded
 random.seed(20261114)
 out = 'private/ratings/packet'; os.makedirs(out, exist_ok=True)
 def clean(t):
@@ -10,8 +11,8 @@ def clean(t):
     # drop the name line and contact line (first lines containing the name or an '@')
     keep = []
     for i, l in enumerate(lines):
-        if i < 3 and ('@' in l or l.strip() == 'the author'): continue
-        keep.append(l.replace('the author', '[NAME]'))
+        if i < 3 and ('@' in l or l.strip() == NAME): continue
+        keep.append(l.replace(NAME, '[NAME]'))
     return '\n'.join(keep).strip() + '\n'
 key = {}
 for n in ['01', '02', '03', '04', '05', '06']:
