@@ -4,6 +4,11 @@ Builds a tailored, ATS-safe Word CV from a structured career profile and a job p
 
 Built for the IE MSc Business Analytics and AI applied project.
 
+## Live web app (Vercel)
+- Live app: https://tailorcv-seven-ruby.vercel.app (needs an access code; the code is given to reviewers separately and is not in this repo).
+- Claude API use: the app calls the Anthropic Messages API (model `claude-sonnet-5-5`) for each pipeline step, using the same prompts as the skill and agents. The API key and access code are stored as environment variables in Vercel, never in the repo. The evaluation itself did not use the API; it ran the pipeline as subagents in a Claude session.
+- Status: MVP, tested once end to end on a made-up persona (`app/TEST_LOG.md`), not part of the evaluation. The profile stays in the user's browser. It does not test whether a CV passes any company's screening.
+
 ## Deadline
 Sunday 15 November 2026 (confirm exact time with the course).
 
