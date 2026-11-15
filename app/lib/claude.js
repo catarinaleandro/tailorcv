@@ -3,8 +3,8 @@
 export const MODEL = process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5';
 
 export async function callClaude(system, user, maxTokens = 4096) {
-  const key = process.env.ANTHROPIC_API_KEY;
-  if (!key) throw new Error('ANTHROPIC_API_KEY is not set on the server.');
+  const key = process.env.ANTHROPIC_API_KEY || process.env.CATARINA_API_KEY; // the owner's Vercel variable is named CATARINA_API_KEY
+  if (!key) throw new Error('No API key is set on the server (ANTHROPIC_API_KEY).');
   const started = Date.now();
   const res = await fetch((process.env.ANTHROPIC_BASE_URL || 'https://api.anthropic.com') + '/v1/messages', {
     method: 'POST',
