@@ -10,12 +10,13 @@ Built for the IE MSc Business Analytics and AI applied project.
 - Status: MVP, tested once end to end on a made-up persona (`app/TEST_LOG.md`), not part of the evaluation. The profile stays in the user's browser. It does not test whether a CV passes any company's screening.
 
 ## Deadline
-Sunday 15 November 2026 (confirm exact time with the course).
+Sunday 15 November 2026, 23:59 ET.
 
 ## Docs
 - `START_HERE.md`: exact next steps
 - `docs/PROJECT_PLAN.md`: problem, pipeline, evaluation design
-- `docs/WRITEUP_TEMPLATE.md`, `docs/DEMO_SCRIPT.md`, `docs/INTERVIEW_KIT.md`
+- `docs/SUBMISSION.md`: links and short project text
+- `docs/WRITEUP_TEMPLATE.md`, `docs/DEMO_SCRIPT.md`, `docs/DEMO_RUNBOOK.md`, `docs/INTERVIEW_KIT.md`
 - `eval/`: pre-registration, bug log, interview notes, limits log
 
 ## Status
